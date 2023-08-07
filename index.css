@@ -29,7 +29,7 @@ body {
 }
 
 .film.item:hover {
-  background-color: #f0f0f0;
+  background-color: #eb0832;
 }
 
 .movie-details {
@@ -53,8 +53,8 @@ body {
 
 #buy-ticket {
   padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
+  background-color: #036cdc;
+  color: #56ed0a;
   border: none;
   cursor: pointer;
 }

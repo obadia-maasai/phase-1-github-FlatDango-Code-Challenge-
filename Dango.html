@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flatdango - Movie Theater</title>
-  <link rel="stylesheet" href="index.css"> <!-- Replace with your CSS file path -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Movie from Flatdango</title>
 </head>
 <body>
-  <div class="container">
-    <div class="movie-menu">
-      <h2>Movies</h2>
-      <ul id="films">
-        
-      </ul>
+    <h1>List of Films</h1>
+    <div class="container">
+        <div class="movie-menu">
+            <h2>Movie Menu</h2>
+            <ul id="films"></ul>
+        </div>
+        <div class="movie-details" id="movieDetails">
+            <h2 id="title">Title</h2>
+            <p id="runtime">Run Time:</p>
+            <p id="showtime">Show Time:</p>
+            <p id="availableTickets">Available Tickets:</p>
+            <p id="description">Description:</p>
+            <img id="image" src="" alt=""/>
+            <button id="buy-ticket" disabled>Buy Ticket</button>
+        </div>
     </div>
-    <div class="movie-details">
-      <img id="image" src="http://localhost:3000/films" alt="">
-      <h1 id="title">Movie Title</h1>
-      <p id="runtime">Runtime: </p>
-      <p id="showtime">Showtime: </p>
-      <p id="available-tickets">Available Tickets: </p>
-      <button id="buy-ticket">Buy Ticket</button>
-    </div>
-  </div>
-  <script src="./index.js"></script> 
+    <script src="./script.js"></script>
 </body>
 </html>
